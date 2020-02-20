@@ -1,0 +1,138 @@
+
+body{
+    
+    
+      background:#4267b2;
+}
+
+
+
+section{
+    
+   margin: 10px;
+    border-radius: 8px;
+    background: #fff;
+   
+}
+section p{
+    
+   padding: 70px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: bold;
+   
+}
+
+
+
+#sec{
+    
+height: 310px;
+   
+}
+
+
+
+section h5{
+    
+   padding: 20px;
+    
+   
+}
+
+
+
+.but {
+   
+    display: inline-block;
+    background-color: darkgray;
+    margin-left: 50px;
+    padding :5px;
+    border: solid 1px darkgray;
+    border-radius: 8px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+
+.but:hover {
+    text-decoration: none;
+     background-color: gainsboro;
+    color:darkgray;
+    
+    
+}
+
+
+
+#se{
+    
+    margin-top: 17px;
+    height: 310px;
+}
+
+
+
+#page{
+    
+    padding: 56px;
+    text-align: left;
+    
+}
+
+.card{
+    
+    border-radius: 8px;
+       margin-left: 95px;
+    margin-top: -47px;
+    width: 40%;
+    height: 20px;
+    background-color:darkgray;
+   
+    margin-bottom: 35px;
+}
+
+
+@media screen and (max-width: 991px) {
+    
+    
+  #page {padding: 40px;
+    }
+    
+    
+    section p {
+        
+        padding: 40px;
+    }
+
+    
+    .but {
+        
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    section h5{
+        
+        margin-left: -14px;
+        
+    }
+    
+    .card{
+        
+        margin-left: 74px;
+    }
+    
+    .but{
+        
+        margin-left: 20px;
+    }
+}
